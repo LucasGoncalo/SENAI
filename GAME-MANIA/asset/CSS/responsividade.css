@@ -1,0 +1,32 @@
+/*Celulares*/
+@media (max-width: 450px) {
+  body {
+    background-color: burlywood;
+  }
+  header {
+    background-color: brown;
+  }
+  #logo {
+    background-color: chocolate;
+  }
+  #menu .linkMenu {
+    color: black;
+  }
+}
+/* Tabletes */
+@media (min-width: 745px) and (max-width: 1024px) {
+  body {
+    background-color: rgb(216, 243, 119);
+  }
+  header {
+    background-color: rgb(238, 128, 128);
+  }
+  #logo {
+    background-color: rgb(117, 59, 17);
+  }
+  #menu .linkMenu {
+    color: green;
+  }
+}
+@media (orientation: landscape) {
+}

@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+}
+#Inicio_pg {
+  width: 100%;
+  height: 60px;
+  justify-content: flex-end;
+  display: flex;
+  border: 1px goldenrod solid;
+  background-color: coral;
+}
+#Inicio_pg .logo {
+  justify-content: flex-start;
+  border: 1px black solid;
+  width: 59px;
+  height: 59px;
+  margin: 0px 5px 0px 5px;
+}
+#Inicio_pg .Login {
+  height: 98%;
+  align-content: center;
+  border: 1px black solid;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+#menu {
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  border: 1px goldenrod solid;
+}
+#menu .linkMenu {
+  height: 98%;
+  align-content: center;
+  border: 1px black solid;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
