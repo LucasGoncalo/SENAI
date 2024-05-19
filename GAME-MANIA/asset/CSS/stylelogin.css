@@ -1,20 +1,54 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color: rgb(13, 24, 48);
+}
+body {
+  background-image: url(https://images.pexels.com/photos/1690082/pexels-photo-1690082.jpeg);
+  background-size: cover;
   box-sizing: border-box;
 }
 form {
-  border: 3px rgba(34, 142, 243, 0.918) solid;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
   width: 400px;
   margin: 40px auto;
-  align-items: center;
-  align-content: center;
-  text-align: center;
   background-color: white;
+  /* From https://css.glass */
+  background: rgba(105, 166, 245, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
 }
 #Logo {
-  height: 100px;
+  height: 130px;
+  width: 130px;
+}
+input {
+  width: 250px;
+  padding: 12px;
+  color: white;
+  border-radius: 15px;
+}
+label {
+  align-items: center;
+  color: white;
+  margin: 1px;
+  padding: left 10px;
+}
+button {
   width: 100px;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: rgb(93, 197, 245);
+  border-color: rgb(6, 43, 59);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
