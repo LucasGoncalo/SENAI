@@ -4,6 +4,7 @@
 }
 body {
   background-image: url(https://images.pexels.com/photos/1690082/pexels-photo-1690082.jpeg);
+  background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
 }
@@ -31,11 +32,11 @@ form {
 input {
   width: 250px;
   padding: 12px;
-  color: white;
   border-radius: 15px;
-}
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(14,113,230,1) 47%, rgb(45, 33, 125) 100%);}
 label {
-  align-items: center;
+  text-align: left;
   color: white;
   margin: 1px;
   padding: left 10px;
@@ -44,9 +45,9 @@ button {
   width: 100px;
   padding: 12px;
   border-radius: 15px;
-  background-color: rgb(93, 197, 245);
+  background-color: rgb(2, 7, 62);
   border-color: rgb(6, 43, 59);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 a {
   text-decoration: none;
